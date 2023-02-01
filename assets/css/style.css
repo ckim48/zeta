@@ -2316,7 +2316,12 @@ text-align: justify;
 .icon-box2:hover .icon2 {
   background: #fff;
 }
-
+.xprtis{
+  color: #03b0c0;
+}
+.text-gray{
+ color: #D7D6D8;
+}
 .services .icon-box2:hover .icon2 i {
   color: #45B467;
 }
