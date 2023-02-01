@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Hygiene Heros</title>
+  <title>Hygiene Heroes</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -17,20 +17,22 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Vesperr - v4.10.0
-  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Template Name: Sailor - v4.9.1
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -40,20 +42,21 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container d-flex align-items-center">
 
-      <div class="logo">
-        <h1><a href="index.html">Hygiene Heros</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+      <h1 class="logo me-auto text-main"><a href="index.html"><i class="fa-solid fa-heart-pulse"></i> Hygiene Heroes. <span class="small-text">Intership Program</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+
+           <li><a href="#about">About</a></li>
+
+           <li><a href="#team">Team</a></li>
+
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -62,369 +65,235 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Providing health education for all</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Teaching preventative health through songs and games</h2>
-          <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/bg1.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"><span class="text-main">Hygiene Heroes</span> - Intership Program 2022</h2>
+              <p class="animate__animated animate__fadeInUp bigger-text">Providing health education for all
+</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero-img.jpg" class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
 
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/bg2.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"><span class="text-main">Hygiene Heroes</span> - Intership Program 2022</h2>
+              <p class="animate__animated animate__fadeInUp bigger-text">Teaching preventative health to a global audience
+</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-  
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= About Section ======= -->
+        <section id="about" class="about">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>About Us</h2>
+          <h2 class="bigger-text2 text-black">About Us</h2>
         </div>
 
         <div class="row content">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-            <p>
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
+            <img class="img-fluid border-img" src="assets/img/hero-img.jpg">
+          </div>
+          <div class="col-lg-7 px-5" data-aos="fade-up" data-aos-delay="150">
+            <p class="text-ali">
     Since 2014, a team of <strong> UC Berkeley</strong> students under Haas Professor David Levine has developed a curriculum to teach preventative health in underprivileged regions. In prototyping our materials, we learned the most effective way to change behavior is through interactive styles of learning, such as stories, games, and songs. We now work with students and faculty at Cal Poly San Luis Obispo as well as local experts from Asia, Africa, and South America to improve our materials.
             </p>
+            <p class="text-ali">
+            We envision a world where children do not suffer from easily preventable diseases. We aim to realize that goal through interactive, educational lessons designed. Our materials are based on current medical and public health knowledge and checked with health professionals and educators in each nation where we work.
+            </p>
+          </div>
 
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <img class="img-fluid aboutimg" src="assets/img/about.jpeg">
-          </div>
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>
 
-    <!-- ======= Counts Section ======= -->
-
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+        <!-- ======= Team Section ======= -->
+    <section id="team" class="team  bg-diff">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <!-- <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p> -->
+          <h2 class="bigger-text2 text-black">Team</h2>
         </div>
+
 
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-controller"></i></div>
-              <h4 class="title"><a href="">Game</a></h4>
-              <p class="description">We created a point-based browser game to teach young children about hygiene</p>
-            </div>
-          </div>
+                    <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"> <strong>Game Design Team</strong></h3>
+      
+        <div class="mt-4">
+          <h4 data-aos="fade-right" data-aos-delay="300" class="team-title">Team Members</h4>
+            <ul data-aos="fade-right" data-aos-delay="300" class="tmember mt-3">
+              <li class=""><strong>Sejoon Park</strong></li>
+              <li class="px-5"><strong>Daniel Kim</strong></li>
+              <li class="px-3"><strong>Sihyun Lee</strong></li>
+              <li class="px-5"><strong>Joseph Park</strong></li>
+            </ul>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-robot"></i></div>
-              <h4 class="title"><a href="">Robotics</a></h4>
-              <p class="description">We built a robot for auto handwasher</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-pencil-square"></i></div>
-              <h4 class="title"><a href="">UI/UX and Software Engineering</a></h4>
-              <p class="description">Through designing the structure of the app, we strive to help Hygiene Heroes visualize a consolidated mobile app</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bi bi-clipboard2-data"></i></div>
-              <h4 class="title"><a href="">Machine Learning</a></h4>
-              <p class="description">Using Machine Learning, we have created a program where we can detect if people are wearing masks or not or incorrectly wearing </p>
-            </div>
-          </div>
 
         </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <h4 data-aos="fade-right" data-aos-delay="300" class="team-title">What we do</h4>
+            <p class="text-ali mt-3">We created a point-based browser game (in HTML/CSS/JS) to teach young children about hygiene. The user can gain points whenever they destroy a hazard with a gun they can control.</p>
 
-                <div class="row mt-5">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box2" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon2"><i class="bi bi-code"></i></div>
-              <h4 class="title"><a href="">Software Engineering</a></h4>
-              <p class="description">We implemented a website to introduce about the 'Hygiene Heros' Project.</p>
-            </div>
+            <p class="text-ali">The character in the game can move around and try to dodge the many hazards moving around such as dirty hands. The goal is to accumulate the most points possible.</p>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box2" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon2"><i class="bi bi-translate"></i></div>
-              <h4 class="title"><a href="">Natural Language Process</a></h4>
-              <p class="description">Using NLP, we find how to approach problem, examine social response towards COVID and vaccines</p>
+         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/GD1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption mt-5 d-none d-md-block">
+                    <p class="small-text2 "> <strong> Game Screen 1</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/GD2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                    <p class="small-text2"><strong> Game Screen 2</strong></p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box2" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon2"><i class="bi bi-graph-down"></i></div>
-              <h4 class="title"><a href="">Statistics & Analysis</a></h4>
-              <p class="description">We estimate the cost of saving a life with ORS</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box2" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon2"><i class="bi bi-briefcase-fill"></i></div>
-              <h4 class="title"><a href="">Business Intelligence</a></h4>
-              <p class="description">We suggest the solution for the potential business problems</p>
-            </div>
-          </div>
-
-        </div>
 
       </div>
-    </section><!-- End Services Section -->
+            <div class="row mt-3">
+
+              <h4 data-aos="fade-right" data-aos-delay="300" class="team-title mt-4">Tools that we used</h4>
+              </div>
+
+              <div class="col-md-8 mt-4" data-aos="fade-right" data-aos-delay="300">
+                <img src="assets/img/html.png" class="mx-3">
+                <img src="assets/img/css.png" class="mx-3">
+                <img src="assets/img/javascript.png" class="mx-3">
+              </div>
+
+               <div class="col-md-4">
+
+              </div>
 
 
+             <div class="col-md-4">
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
+              </div>
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <!-- <p>We have <strong> Business Intelligence</strong>, <strong>Game Design</strong>, <strong>Machine Learning</strong>, <strong>Robotics</strong>, <strong>Software Engineering</strong>, and <strong>UI/UX team</strong></p> -->
-        </div>
-
-        <div class="row">
-
-            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"> <strong>Game Design Team</strong></h3>
-
-
-          <div class="col-md-4 mt-4" data-aos="fade-right" data-aos-delay="300">
-                          <h5 class="">What we did?</h5>
-            
-            <p>We created a point-based browser game (in HTML/CSS/JS) to teach young children about hygiene. The user can gain points whenever they destroy a hazard with a gun they can control. The character in the game can move around and try to dodge the many hazards moving around such as dirty hands. The goal is to accumulate the most points possible.</p>
-
-
-          </div>
-          <div class="col-md-4 mt-5">
-            <img src="assets/img/GD1.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Project Demo - Title Screen</p>
-            
-          </div>
-                    <div class="col-md-4 mt-5 ml-4">
-            <img src="assets/img/GD2.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Project Demo - basic features</p>
-            
-          </div>
-
-           <h5 class="mt-3" data-aos="fade-right" data-aos-delay="300">Our Team members</h5>
-            <ul data-aos="fade-right" data-aos-delay="300">
-              <li class="mx-5">Sejoon Park</li>
-              <li class="mx-5">Daniel Kim</li>
-              <li class="mx-5">Sihyun Lee</li>
-              <li class="mx-5">Joseph Park</li>
-            </ul>
-        </div>
  
 
-
-        
       </div>
 
 
-      </div>
+
     </section>
-      <section id="services" class="services">
-        <div class="container" >
-              <div class="row">
-                <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"><strong>UI/UX Team</strong></h3>
 
-
-          <div class="col-md-4 mt-4" data-aos="fade-right" data-aos-delay="300">
-                          <h5 class="">What we did?</h5>
-            
-            <p>Through designing the structure of the app, we strive to help Hygiene Heroes visualize a consolidated mobile app that can be used for students, parents, as well as teachers. The purpose of this app is to make children easily learn concepts regarding health in an entertaining way. </p>
-
-
-          </div>
-          <div class="col-md-4 mt-5">
-            <img src="assets/img/UI1.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption2 mt-3" data-aos="zoom-in" data-aos-delay="300">Playful, Children themed home-screen for an inviting experience</p>
-            
-          </div>
-                    <div class="col-md-4 mt-5 ml-4">
-            <img src="assets/img/UI2.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption2 mt-3" data-aos="zoom-in" data-aos-delay="300">Loading screen with quick instructions</p>
-            
-          </div>
-           <h5 class="mt-3" data-aos="fade-right" data-aos-delay="300">Our Team members</h5>
-            <ul data-aos="fade-right" data-aos-delay="300">
-              <li class="mx-5">Jihoon Kim</li>
-              <li class="mx-5">Minjae Shim</li>
-            </ul>
-
-        </div>
-      </div>
-      </section>
-
-    </section><!-- End Team Section -->
- <section id="team" class="team section-bg">
+    <section id="team" class="team">
       <div class="container">
-
-        <div class="row">
-
-            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"><strong>Machie Learning Team</strong></h3>
-
-
-          <div class="col-md-4 mt-4" data-aos="fade-right" data-aos-delay="300">
-                          <h5 class="">What we did?</h5>
-            
-            <p> We implmented ML model detects whether a person is wearing a mask or not properly wearing a mask or not wearing a mask at all. 
-
-This model can be used in a wide range of situations to promote proper Mask wearing.</p>
-
-
-          </div>
-          <div class="col-md-4 mt-5">
-            <img src="assets/img/ML1.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Final Sceen of ML-based Model</p>
-            
-          </div>
-                    <div class="col-md-4 mt-5 ml-4">
-            <img src="assets/img/ML2.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Accuracy of ML-based model</p>
-            
-          </div>
-
-           <h5 class="mt-3" data-aos="fade-right" data-aos-delay="300">Our Team members</h5>
-            <ul data-aos="fade-right" data-aos-delay="300">
-              <li class="mx-5">Calvin Kim</li>
-              <li class="mx-5">Sungjoon Park</li>
-              <li class="mx-5">Yoochan Noh</li>
-              <li class="mx-5">Aiden Choi</li>
+<div class="row">
+                    <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"> <strong>UI/UX Team</strong></h3>
+      
+        <div class="mt-4">
+          <h4 data-aos="fade-right" data-aos-delay="300" class="team-title">Team Members</h4>
+            <ul data-aos="fade-right" data-aos-delay="300" class="tmember mt-3">
+              <li class=""><strong>Jihoon Kim</strong></li>
+              <li class="px-5"><strong>Minjae Shim</strong></li>
+              <li class="px-3"><strong>Sihyun Lee</strong></li>
+              <li class="px-5"><strong>Joseph Park</strong></li>
             </ul>
-        </div>
- 
-
-
-        
-      </div>
-
-
-      </div>
-    </section>
-    <section id="services" class="services">
-        <div class="container" >
-              <div class="row">
-                <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"><strong>Robotics Team</strong></h3>
-
-
-          <div class="col-md-4 mt-4" data-aos="fade-right" data-aos-delay="300">
-                          <h5 class="">What we did?</h5>
-            
-            <p>We implemented the motion sensor robot for assisting the handwash. We used Passive Infrared (PIR) sensor, Servo Moter, and Breadboard with Arduino.</p>
-           <h5 class="mt-3" data-aos="fade-right" data-aos-delay="300">Our Team members</h5>
-            <ul data-aos="fade-right" data-aos-delay="300">
-              <li class="mx-5">Laurence</li>
-              <li class="mx-5">Nathan</li>
-              <li class="mx-5">Edward</li>
-            </ul>
-
-          </div>
-          <div class="col-md-4 mt-5">
-            <img src="assets/img/Robo1.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption2 mt-3" data-aos="zoom-in" data-aos-delay="300">Main Prototype of Robot</p>
-            
-          </div>
-                    <div class="col-md-4 mt-5 ml-4">
-            <img src="assets/img/Robo2.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption2 mt-3" data-aos="zoom-in" data-aos-delay="300">Arduino Nano of Robot</p>
-            
-          </div>
-
 
         </div>
       </div>
-      </section>
+      <div class="row mt-5">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <h4 data-aos="fade-right" data-aos-delay="300" class="team-title">What we do</h4>
+            <p class="text-ali mt-3">Through designing the structure of the app, we strive to help Hygiene Heroes visualize a consolidated mobile app that can be used for students, parents, as well as teachers.</p>
 
-    <section id="team" class="team section-bg">
-      <div class="container">
-
-        <div class="row">
-
-            <h3 data-aos="fade-right" data-aos-delay="300" class="team-title"><strong>Software Engineering Team</strong></h3>
-
-
-          <div class="col-md-4 mt-4" data-aos="fade-right" data-aos-delay="300">
-                          <h5 class="">What we did?</h5>
-            
-            <p> We implmented a website that introduce about the 'Hygiene Heroes'. For the frontend, we used HTML, ,CSS with Boostrap. For the backend, we usesd Python with Django. We have tested various Use cases and designed the Entity Relationship Diagram for imeplementing the website.</p>
-
-
-          </div>
-          <div class="col-md-4 mt-5">
-            <img src="assets/img/SE1.png" class="team-img img-height" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Individual Category Page</p>
-            
-          </div>
-                    <div class="col-md-4 mt-5 ml-4">
-            <img src="assets/img/SE2.png" class="team-img" data-aos="zoom-in" data-aos-delay="300">
-            <p class="img-caption mt-3" data-aos="zoom-in" data-aos-delay="300">Material Page</p>
-            
+            <p class="text-ali"> The purpose of this app is to make children easily learn concepts regarding health in an entertaining way.</p>
           </div>
 
-           <h5 class="mt-3" data-aos="fade-right" data-aos-delay="300">Our Team members</h5>
-            <ul data-aos="fade-right" data-aos-delay="300">
-              <li class="mx-5">Anthony</li>
-              <li class="mx-5">Jeho</li>
-              <li class="mx-5">Rachel</li>
-            </ul>
-        </div>
- 
+         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/GD1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption mt-5 d-none d-md-block">
+                    <p class="small-text2 "> <strong> Game Screen 1</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/GD2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  mt-5 d-none d-md-block">
+                    <p class="small-text2"><strong> Game Screen 2</strong></p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
 
-        
       </div>
+            <div class="row mt-3">
+
+              <h4 data-aos="fade-right" data-aos-delay="300" class="team-title mt-4">Tools that we used</h4>
+              </div>
+
+              <div class="col-md-8 mt-4" data-aos="fade-right" data-aos-delay="300">
+                <img src="assets/img/html.png" class="mx-3">
+                <img src="assets/img/css.png" class="mx-3">
+                <img src="assets/img/javascript.png" class="mx-3">
+              </div>
 
 
-      </div>
-    </section>
-<section id="services" class="services">
-        <div class="container" >
-              <div class="row">
-                <h3 class="team-title"><strong>Business Intelligence 1</strong></h3>
-
-
-
-            <h5 class="mt-4">What we did?</h5>
-          <p>We defined the expected businsess problems and suggests the solutions</p>
-
-
-
-           <h5 class="mt-3">Our Team members</h5>
-            <ul>
-              <li class="mx-5">Seoyeon Cho</li>
-              <li class="mx-5">Jason Kim</li>
-              <li class="mx-5">Yeonjun Lim</li>
-              <li class="mx-5">Sooyeong Park</li>
-            </ul>
-
-             <h5 class="mt-4">Problem1 - How to improve the handwashing situation in India?</h5>
-
-            <h5>Approaching Problem 1</h4>
-
-         </div>
-      </div>
-      </section>
+            </div>
+</div>
+  
 
 
 
@@ -433,21 +302,10 @@ This model can be used in a wide range of situations to promote proper Mask wear
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-6 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>Zeta</strong>. All Rights Reserved
-          </div>
 
-        </div>
-        <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#">Service</a>
-            <a href="#">Team</a>
-          </nav>
-        </div>
+      <div class="credits">
+
+        Designed by The Planet  Project
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -455,14 +313,16 @@ This model can be used in a wide range of situations to promote proper Mask wear
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
