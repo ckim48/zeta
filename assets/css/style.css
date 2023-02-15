@@ -536,6 +536,10 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
+.section-title3 {
+
+  padding-bottom: 20px;
+}
 
 .section-title h2 {
   font-size: 20px;
@@ -2389,4 +2393,7 @@ text-align: justify;
 .myim{
   height:90%;
   border-radius: 8px;
+}
+.xprtis-s{
+  text-align: center;
 }
