@@ -487,7 +487,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #df3740;
+  background: #495493;
 }
 
 @media (max-width: 992px) {
@@ -2195,6 +2195,9 @@ section {
 .bigger-text2{
   font-size: 80px;
 }
+.bigger-text3{
+font-size: 36px;
+}
 .small-text{
   font-size: 18px;
 }
@@ -2327,4 +2330,63 @@ text-align: justify;
 }
 .carousel-inner .myimg{
   height: 360px;
+}
+/*#services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}*/
+
+#services .service-item {
+  margin-bottom: 20px;
+}
+
+#services .service-icon {
+  float: left;
+  background: #008dc9;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #008dc9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+#services .service-icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#services .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .service-item:hover .service-icon i {
+  color: #008dc9;
+}
+
+#services .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .service-title a {
+  color: #111;
+}
+
+#services .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+.small-img{
+  width:50%;
+}
+.myim{
+  height:90%;
+  border-radius: 8px;
 }
