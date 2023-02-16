@@ -1,9 +1,4 @@
-/**
-* Template Name: Sailor - v4.9.1
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -162,7 +157,14 @@
     width: '90%',
     height: '90vh'
   });
-
+let links = document.querySelectorAll('.nav-lin');
+for(let i=0; i<links.length; i++){
+  links[i].addEventListener('click', function() {
+    for(let j=0; j<links.length; j++)
+      links[j].classList.remove('active');
+    this.classList.add('active');
+  });
+}
   /**
    * Skills animation
    */
