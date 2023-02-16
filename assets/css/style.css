@@ -2395,7 +2395,9 @@ text-align: justify;
   width:50%;
 }
 .myim{
-  height:90%;
+    width:500px;
+  height:300px;
+
   border-radius: 8px;
 }
 .xprtis-s{
